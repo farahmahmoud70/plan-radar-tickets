@@ -1,0 +1,53 @@
+.ticket-container {
+  border: 2px solid gray;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4px 20px;
+  line-height: 26px;
+}
+
+.ticket-container div {
+  align-self: flex-start;
+}
+
+.subject-priority-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subject {
+  font-weight: bold;
+  color: purple;
+}
+
+.status {
+  color: gray;
+}
+
+.description {
+  color: rgb(69, 69, 69);
+}
+
+.status,
+.description {
+  font-size: 14px;
+}
+
+.low {
+  color: green;
+}
+
+.high {
+  color: red;
+}
+
+.mid {
+  color: orange;
+}
